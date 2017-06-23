@@ -27,7 +27,17 @@ public class Sala {
     
     private BigDecimal preco;
 
-    /**
+    public BigDecimal getPreco() {
+		return preco;
+	}
+
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+
+	/**
      * @deprecated hibernate only
      */
  

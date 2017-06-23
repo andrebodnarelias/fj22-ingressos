@@ -40,7 +40,16 @@ public class Filme {
     	
     }
     
-    public Integer getId() {
+    public BigDecimal getPreco() {
+		return preco;
+	}
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+
+	public Integer getId() {
         return id;
     }
 
